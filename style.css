@@ -4,11 +4,15 @@ body {
   margin: 0;
 }
 
-header {
+h1 {
   text-align: center;
 }
 
-nav > a {
+nav, figcaption {
+  text-align: center;
+}
+
+nav a {
   padding: 10px;
   background-color: yellow;
 }
@@ -19,18 +23,16 @@ nav > a {
   margin-right: auto;
 }
 
-figcaption {
-  font-size: 15px;
-  text-align: center;
-}
-
 #featured-property p {
   width: 800px;
   text-align: center;
+  margin: 0 auto;
 }
 
 #details div {
+  float: left;
   background-color: yellow;
+  width: 25%;
   text-align: center;
 }
 
