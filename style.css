@@ -32,6 +32,7 @@ nav a {
 #details div {
   float: left;
   background-color: yellow;
+  width: 25%;
   text-align: center;
 }
 
